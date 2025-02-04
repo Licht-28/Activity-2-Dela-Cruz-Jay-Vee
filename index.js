@@ -23,8 +23,8 @@ inquirer.prompt([
 
     // Generate QR codes
     generateQRCode(JAYVEE, 'jayvee.png');
-    generateQRCode(SN, 'SN.png');
-    generateQRCode(SHN, 'SHN.png');
+    generateQRCode(SN, 'sillyname.png');
+    generateQRCode(SHN, 'superheroname.png');
 
     // Save names to a text file
     const textContent = `Name: ${JAYVEE}\nVillain Name: ${SN}\nSuperhero Name: ${SHN}\n`;
